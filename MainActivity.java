@@ -11,13 +11,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
    public void doSomething() {
-        int i = 60;
-        int ii = 900;
+        int i = 7;
+        int ii = 30;
+       int iii = 56;
 
 
-        String iString = Integer.toString(i);
+        String iString = Integer.toString(ii);
         String iiString;
-        if (i <= 100) {
+        if (i < 100) {
             iiString = Integer.toString(ii + 9);
         }
     }
