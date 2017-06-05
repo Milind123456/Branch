@@ -10,6 +10,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    
+
+    public void doSomething(){
+        int i =15;
+        int ii = 50;
+
+        String iString = Integer.toString(i);
+        String iiString;
+        if(i<=100){
+            iiString = Integer.toString(ii+9);
+        }
+    }
 
 }
